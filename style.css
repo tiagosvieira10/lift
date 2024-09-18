@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 
-  font-family: "Roboto Mono", monospace;
+  font-family: "Poppins";
   font-optical-sizing: auto;
   font-style: normal;
+
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -13,15 +15,16 @@ body {
   height: 100vh
 }
 
+/* Estilização Header */
+
 header {
   align-items: center;
-  position: fixed;
   height: 70px;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 1000; 
-  padding: 1rem;
+  padding: 1.5rem;
   margin-inline: auto;
 
   .nav {
@@ -31,8 +34,8 @@ header {
   }
 
   img {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
   };
 
 
@@ -125,12 +128,106 @@ header {
 
   .nav.active .hamburger::before {
     transform: rotate(135deg);
-    background-color: #672cbc;
   }
 
   .nav.active .hamburger::after {
     transform: rotate(-135deg);
-    background-color: #672cbc;
     top: -7px;
+  }
+}
+
+/* Estilização Main */
+
+main {
+  padding: 4rem 1.5rem;
+  
+  h1 {
+    color: #3e3e3f;
+    font-size: 1.4rem;
+    max-width: 80%;
+  }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  
+    span {
+      font-size: 0.85rem;
+      max-width: 80%;
+    }
+
+    .first-button {
+      max-width: max-content;
+      padding: 1rem 2rem;
+
+
+      color: white;
+      background-color: #672cbc;
+      font-weight: 500;
+      
+      border: none;
+      border-radius: 25px;
+    }
+
+    .home-img {
+      height: 20rem;
+      border-radius: 30px 0px 0px 30px;  
+      margin-right: -1.5rem;
+    }
+  
+  }
+
+  .o-que-fazemos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+
+    h1 {
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+
+    .linha {
+      height: 2px;
+      width: 12rem;
+      background-color: #672cbc;
+    }
+    
+  }
+
+  .cards {
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+  
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      
+      border: 1px solid #3e3e3f;
+      border-radius: 25px;
+
+      padding: 1rem 1.5rem;
+
+
+      h3 {
+        color: #672cbc;
+        font-size: 1.8rem;
+      }
+
+      h4 {
+        font-size: 1.2rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+
+    }
   }
 }
