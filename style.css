@@ -82,7 +82,7 @@ header {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: #d8d6db;
+    background: #cfcfcf;
     clip-path: circle(100px at 90% -15%);
     transition: 1s ease-out;
 
@@ -92,11 +92,6 @@ header {
     gap: 0;
 
     pointer-events: none;
-  }
-
-  .nav-list a {
-    font-size: 0.9rem;
-    opacity: 0;
   }
 
   .nav-list li:nth-child(1) a {
@@ -130,10 +125,12 @@ header {
 
   .nav.active .hamburger::before {
     transform: rotate(135deg);
+    background-color: #672cbc;
   }
 
   .nav.active .hamburger::after {
     transform: rotate(-135deg);
+    background-color: #672cbc;
     top: -7px;
   }
 }
