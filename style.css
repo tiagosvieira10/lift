@@ -459,10 +459,44 @@ main {
     h4 {
       font-size: 0.8rem;
       color: #d6fe00;
-    }
-
-    
+    }    
   }
 
   
+}
+
+footer {
+  background-color: #2c2c2c;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+
+  img {
+    width: 5rem;
+  }
+
+  p {
+    font-size: 0.5rem;
+    line-height: 1.5;
+  }
+
+  .linha {
+    height: 1px;
+    background-color: white;
+    margin: 20px auto;
+  }
+
+  .menu-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+
+    a {
+      color: white;
+      font-size: 0.5rem;
+    }
+  }
+
 }
