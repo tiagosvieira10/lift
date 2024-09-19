@@ -139,126 +139,172 @@ header {
 /* Estilização Main */
 
 main {
-  padding: 4rem 1.5rem;
-  
-  h1 {
-    color: #3e3e3f;
-    font-size: 1.4rem;
-    max-width: 80%;
-  }
 
-  .home {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+  .main-inicial {
   
-    span {
-      font-size: 0.85rem;
+    padding: 4rem 1.5rem;
+    padding-bottom: 2rem;
+  
+    h1 {
+      color: #3e3e3f;
+      font-size: 1.4rem;
       max-width: 80%;
     }
 
-    .first-button {
-      max-width: max-content;
-      padding: 1rem 2rem;
-
-
-      color: white;
-      background-color: #672cbc;
-      font-weight: 500;
-      
-      border: none;
-      border-radius: 25px;
-    }
-
-    .home-img {
-      height: 20rem;
-      border-radius: 30px 0px 0px 30px;  
-      margin-right: -1.5rem;
-    }
-  
-  }
-
-  .o-que-fazemos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 4rem;
-
-    h1 {
-      text-align: center;
-      padding-bottom: 1rem;
-    }
-
-    .linha {
-      height: 2px;
-      width: 12rem;
-      background-color: #672cbc;
-    }
-    
-  }
-
-  .cards {
-    display: flex;
-    padding-top: 2rem;
-    flex-direction: column;
-    gap: 2rem;
-  
-    .card {
+    .home {
       display: flex;
       flex-direction: column;
-      gap: 0.5rem;
-      
-      border: 1px solid #3e3e3f;
-      border-radius: 25px;
-
-      padding: 1rem 1.5rem;
-
-
-      h3 {
-        color: #672cbc;
-        font-size: 1.8rem;
+      gap: 1.2rem;
+    
+      span {
+        font-size: 0.85rem;
+        max-width: 80%;
       }
 
-      h4 {
-        font-size: 1.2rem;
+      .first-button {
+        max-width: max-content;
+        padding: 1rem 2rem;
+
+
+        color: white;
+        background-color: #672cbc;
+        font-weight: 500;
+        
+        border: none;
+        border-radius: 25px;
       }
 
-      p {
-        font-size: 0.8rem;
+      .home-img {
+        height: 20rem;
+        border-radius: 30px 0px 0px 30px;  
+        margin-right: -1.5rem;
       }
-
+    
     }
-  }
 
-  .investir {
+    .o-que-fazemos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 4rem;
+
+      h1 {
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+
+      .linha {
+        height: 2px;
+        width: 12rem;
+        background-color: #672cbc;
+      }
+      
+    }
+
+    .cards {
+      display: flex;
+      padding-top: 2rem;
+      flex-direction: column;
+      gap: 2rem;
+    
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        
+        border: 1px solid #3e3e3f;
+        border-radius: 25px;
+
+        padding: 1rem 1.5rem;
+
+
+        h3 {
+          color: #672cbc;
+          font-size: 1.8rem;
+        }
+
+        h4 {
+          font-size: 1.2rem;
+        }
+
+        p {
+          font-size: 0.8rem;
+        }
+
+      }
+    }
+
+    .investir {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 4rem;
+      gap: 1rem;
+
+      h1 {
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+
+      .investimento {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+        border-bottom: 1px solid #672cbc;
+        padding-bottom: 1rem;
+
+        img {
+          height: 1.5rem;
+          width: 1.5rem;
+        }
+
+        p {
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }  
+
+  .turbinar {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 4rem;
-    gap: 1rem;
+    width: 100%;
+    background-color: #2c2c2c;
 
-    h1 {
+
+    h2 {
+      font-size: 1.2rem;
+      color: #efefef;
       text-align: center;
       padding-bottom: 1rem;
+      max-width: 80%;
     }
 
-    .investimento {
+    img {
+      height: auto;
+      width: 50%;
+      opacity: 0.5;
+    }
+
+    .mensagem-turbinar {
       display: flex;
+      justify-content: center;
       align-items: center;
-      justify-content: space-between;
-      gap: 0.5rem;
-      border-bottom: 1px solid #672cbc;
-      padding-bottom: 1rem;
 
-      img {
-        height: 1.5rem;
-        width: 1.5rem;
-      }
+      flex-direction: column;
 
-      p {
-        font-size: 0.6rem;
+      .turbinar-button {
+        padding: 0.5rem 1.5rem;
+        
+        color: #3e3e3f;
+        font-size: 0.7rem;
+        background-color: #d6fe00;
+        font-weight: 700;
+        
+        border: none;
+        border-radius: 25px;
       }
     }
   }
