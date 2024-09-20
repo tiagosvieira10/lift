@@ -90,10 +90,9 @@ header {
     transition: 0.5s ease-out;
 
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 0;
-
+  
     pointer-events: none;
   }
 
@@ -158,22 +157,22 @@ main {
 
       h1 {
         font-weight: 800;
-        font-size: 1.9rem;
+        font-size: 2rem;
       }
     
       span {
-        font-size: 0.9rem;
+        font-size: 1rem;
         max-width: 90%;
       }
 
       .first-button {
         max-width: max-content;
-        padding: 1rem 2rem;
+        padding: 1.2rem 3rem;
 
 
         color: white;
         background-color: #672cbc;
-        font-weight: 500;
+        font-weight: 700;
         
         border: none;
         border-radius: 25px;
@@ -309,7 +308,7 @@ main {
       flex-direction: column;
 
       .turbinar-button {
-        padding: 0.5rem 1.5rem;
+        padding: 1rem 1.5rem;
         
         color: #3e3e3f;
         font-size: 0.7rem;
@@ -466,11 +465,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 1.5rem;
     background-color: #2c2c2c;
     text-decoration: none;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
 
     border-radius: 30px;
     gap: 0.5rem;
