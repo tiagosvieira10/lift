@@ -8,15 +8,11 @@ const swiper = new Swiper('.slider-wrapper', {
   grabCursor: true,
   spaceBetween: 10,
   slidesPerView: 1.25,
-
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
 });
+
+const swiperTarefas = new Swiper('.slider-tarefas', {
+  // loop: true,
+  grabCursor: true,
+  spaceBetween: 10,
+  slidesPerView: 2.25,
+});  

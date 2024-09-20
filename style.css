@@ -71,7 +71,7 @@ header {
   background: #672cbc;
   margin-top: 5px;
   position: relative;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 @media (max-width: 750px) {
@@ -87,7 +87,7 @@ header {
     height: 100vh;
     background: #cfcfcf;
     clip-path: circle(100px at 90% -15%);
-    transition: 1s ease-out;
+    transition: 0.5s ease-out;
 
     flex-direction: column;
     justify-content: space-around;
@@ -187,7 +187,7 @@ main {
     
     }
 
-    .o-que-fazemos {
+    .tarefas-title {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -204,37 +204,36 @@ main {
         width: 12rem;
         background-color: #672cbc;
       }
-      
     }
 
-    .cards {
-      display: flex;
+    .o-que-fazemos {
       padding-top: 2rem;
-      flex-direction: column;
-      gap: 2rem;
-    
+    }
+
+    .cards {    
       .card {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+        height: 20rem;
         
         border: 1px solid #3e3e3f;
         border-radius: 25px;
 
-        padding: 1rem 1.5rem;
+        padding: 1rem;
 
 
         h3 {
           color: #672cbc;
-          font-size: 1.8rem;
+          font-size: 2rem;
         }
 
         h4 {
-          font-size: 1.2rem;
+          font-size: 0.94rem;
         }
 
         p {
-          font-size: 0.8rem;
+          font-size: 0.7rem;
         }
 
       }
@@ -251,6 +250,14 @@ main {
       h1 {
         text-align: center;
         padding-bottom: 1rem;
+      }
+
+      .text-investimento {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 0.5rem
       }
 
       .investimento {
