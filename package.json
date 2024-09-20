@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "keen-slider": "^6.8.6"
+    "keen-slider": "^6.8.6",
+    "swiper": "^11.1.14"
   }
 }
