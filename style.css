@@ -160,9 +160,6 @@ main {
       flex-direction: column;
       gap: 1.2rem;
 
-      @media (min-width: 768px) {
-        
-      }
 
       h1 {
         font-weight: 800;
@@ -230,6 +227,10 @@ main {
         height: 2px;
         width: 12rem;
         background-color: #672cbc;
+
+        @media (min-width: 768px) {
+          width: 20rem;
+        }
       }
     }
 
@@ -253,14 +254,23 @@ main {
         h3 {
           color: #672cbc;
           font-size: 2rem;
+          @media (min-width: 768px) {
+            font-size: 3rem;
+          }
         }
 
         h4 {
           font-size: 0.94rem;
+          @media (min-width: 768px) {
+            font-size: 1.7rem;
+          }
         }
 
         p {
           font-size: 0.7rem;
+          @media (min-width: 768px) {
+            font-size: 1rem;
+          }
         }
 
       }
@@ -294,6 +304,11 @@ main {
         gap: 0.5rem;
         border-bottom: 1px solid #672cbc;
         padding-bottom: 1rem;
+        
+        @media (min-width: 768px) {
+          width: 95%;
+          justify-content: flex-start;
+        }
 
         img {
           height: 1.5rem;
@@ -302,6 +317,9 @@ main {
 
         p {
           font-size: 0.6rem;
+          @media (min-width: 768px) {
+            font-size: 1rem;
+          }
         }
       }
     }
@@ -346,6 +364,17 @@ main {
         
         border: none;
         border-radius: 25px;
+
+        @media (min-width: 768px) {
+          font-size: 1rem;
+          padding: 1rem 4rem;
+        }
+      }
+
+      @media (min-width: 768px) {
+        h2 {
+          font-size: 2rem;
+        }
       }
     }
   }
@@ -395,33 +424,17 @@ main {
             
             font-weight: 600;
             font-size: 0.75rem;
+          
+            @media (min-width: 768px) {
+              font-size: 1rem;              
+            }
+            
           }
         }
       }
     }
   }
 
-  .tecnologias {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    gap: 1rem;
-    padding-top: 3rem;
-
-    h1 {
-      font-size: 1.3rem;
-    }
-
-    .linguagens {
-      display: flex;
-      gap: 0.3rem;
-      img {
-        height: 2rem;
-      }
-    }
-  }
 
   .processo-container {
     display: flex;
@@ -435,10 +448,16 @@ main {
     h2 {
       color: #3e3e3f;
       font-size: 1.3rem;
+      @media (min-width: 768px) {
+        font-size: 2.5rem;              
+      }
     }
 
     p {
       font-size: 0.7rem;
+      @media (min-width: 768px) {
+        font-size: 1rem;              
+      }
     }
 
     .processos-cards {
@@ -461,20 +480,34 @@ main {
         height: 15rem;
         padding: 0.3rem;
 
+        @media (min-width: 768px) {
+          height: 30rem;   
+          padding: 1rem;
+        }
+
         background-color: #672cbc;
 
         img {
           height: 3rem;
+          @media (min-width: 768px) {
+            height: 6rem;              
+          }
         }
 
         h5 {
           font-size: 0.55rem;
           color: white;
+          @media (min-width: 768px) {
+            font-size: 1.1rem;                     
+          }
         }
 
         span {
           font-size: 0.5rem;
           color: white;
+          @media (min-width: 768px) {
+            font-size: 1rem;                     
+          }
         }
       }
 
@@ -499,6 +532,7 @@ main {
     h4 {
       font-size: 1rem;
       color: #d6fe00;
+      
     }    
   }  
 }
@@ -509,14 +543,23 @@ footer {
   text-align: center;
   padding: 2rem;
   margin-top: 2rem;
+  @media (min-width: 768px) {
+    padding: 5rem;                   
+  }
 
   img {
     width: 5rem;
+    @media (min-width: 768px) {
+      width: 10rem;                    
+    }
   }
 
   p {
     font-size: 0.5rem;
     line-height: 1.5;
+    @media (min-width: 768px) {
+      font-size: 1rem;                     
+    }
   }
 
   .linha {
@@ -534,6 +577,9 @@ footer {
     a {
       color: white;
       font-size: 0.5rem;
+      @media (min-width: 768px) {
+        font-size: 1rem;                     
+      }
     }
   }
 
