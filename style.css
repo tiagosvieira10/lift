@@ -165,6 +165,7 @@ main {
       @media (min-width: 768px) {
         flex-direction: row;
         align-items: center;
+        overflow: hidden;
       }
 
       .home-text {
@@ -264,7 +265,7 @@ main {
         padding: 1rem;
 
         @media (min-width: 768px) {
-          height: 15rem;
+          height: 16rem;
         }
 
         h3 {
