@@ -258,7 +258,7 @@ main {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
-        height: 20rem;
+        height: 21rem;
         
         border: 1px solid #3e3e3f;
         border-radius: 25px;
